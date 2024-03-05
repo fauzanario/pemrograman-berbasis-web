@@ -1,0 +1,30 @@
+.gambar-poci{
+    display: flex;
+    margin: auto;
+    width: 200px;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1707343843437-caacff5cfa74?q=80&w=2750&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: unset;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: aqua;
+}
+
+.table{
+    margin: auto;
+}
+
+.table1{
+    margin: auto;
+}
+
+option{
+    color:aqua;
+}
+
+input{
+    color:aqua;
+    background-color: black;
+}

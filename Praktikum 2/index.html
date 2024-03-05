@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 2</title>
+    <link href="../Praktikum 2/library/style.css" rel="stylesheet">
+</head>
+<body>
+    <img src="../Praktikum 2/image/Es-Teh-Poci.png" alt="poci" class="gambar-poci">
+<br>
+    <div class="wrapper">
+    <table border="1" class="table">
+        <tr>
+            <td colspan="2">Nama Lengkap</td>
+            <td rowspan="2">Umur</td>
+        </tr>
+        <tr>
+            <td>Nama Depan</td>
+            <td>Nama Belakang</td>
+        </tr>           
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>43</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>57</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1" class="table1">
+        <thead>
+            <tr>
+                <th rowspan="2">No.</th>
+                <th colspan="2">Nama Lengkap</th>
+                <th rowspan=2>Kelas</th>
+                <th rowspan="2">Umur</th>
+                <th rowspan="2">Jurusan</th>
+            </tr>
+
+            <tr>
+                <th>Nama Depan</th>
+                <th>Nama Belakang</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Fauzan Ario</td>
+                <td>Bagaskoro</td>
+                <td>4E</td>
+                <td>19</td>
+                <td>Informatika</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Mpay Wedding</td>
+                <td>Rifdiansyah</td>
+                <td>4E</td>
+                <td>20</td>
+                <td>Freelance Cinema Karawang</td>
+            </tr>
+        </tbody>
+        <!-- <tfoot>
+            <tr>
+                <td colspan="3">Total</td>
+                <td>185</td>
+            </tr>
+        </tfoot> -->
+        </table>
+<br>
+    <form action="#" method="post">
+        <label for="username">Username</label><br>
+        <input type="text" name="username" id="username"><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email"><br><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password"><br><br>
+
+        <label for="hobi">Hobi</label><br>
+        <input type="checkbox" name="hobi" id="hobi"
+        value="Membaca"> Mengaji
+        <input type="checkbox" name="hobi" id="hobi"
+        value="Menulis"> Sholat Sunnah
+        <input type="checkbox" name="hobi" id="hobi"
+        value="Memancing"> Berdzikir <br><br>
+
+        <label for="jk">Jenis Kelamin</label><br>
+        <input type="radio" name="jk" id="jk" value="LakiLaki"> Laki-Laki
+        <input type="radio" name="jk" id="jk" value="Perempuan"> Perempuan<br><br>
+
+        <label for="alamat">Alamat</label><br>
+        <textarea name="alamat" id="alamat" cols="30" rows="5"
+        ></textarea><br><br>
+
+        <label for="jurusan">Jurusan</label><br>
+        <select name="jurusan" id="jurusan">
+        <option value="Informatika">Informatika</option>
+        <option value="Sistem Informasi">Sistem Informasi</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+    </div>
+</body>
+</html>
